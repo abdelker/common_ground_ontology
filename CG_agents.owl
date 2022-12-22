@@ -229,7 +229,7 @@
 
     <owl:Class rdf:about="cg_agents#Head">
         <rdfs:subClassOf rdf:resource="cg_agents#BodyPart"/>
-        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/humans/head.obj</cg_entities:hasMesh>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/humans/head.obj</cg_entities:hasMesh>
     </owl:Class>
     
 
@@ -238,7 +238,7 @@
 
     <owl:Class rdf:about="cg_agents#LeftHand">
         <rdfs:subClassOf rdf:resource="cg_agents#Hand"/>
-        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/humans/hand_left.obj</cg_entities:hasMesh>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/humans/hand_left.obj</cg_entities:hasMesh>
     </owl:Class>
     
 
@@ -247,7 +247,7 @@
 
     <owl:Class rdf:about="cg_agents#RightHand">
         <rdfs:subClassOf rdf:resource="cg_agents#Hand"/>
-        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/humans/hand_right.obj</cg_entities:hasMesh>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/humans/hand_right.obj</cg_entities:hasMesh>
     </owl:Class>
 
 </rdf:RDF>

@@ -44,7 +44,7 @@
         <rdfs:subClassOf rdf:resource="cg_entities#FrFemaleGender"/>
         <rdfs:label xml:lang="fr">console</rdfs:label>
         <rdfs:label xml:lang="en">console table</rdfs:label>
-        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/furnitures/ikea_console.obj</cg_entities:hasMesh>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/ikea_console.obj</cg_entities:hasMesh>
     </owl:Class>
     
 
@@ -68,7 +68,7 @@
         <rdfs:subClassOf rdf:resource="cg_entities#FrMaleGender"/>
         <rdfs:label xml:lang="en">block</rdfs:label>
         <rdfs:label xml:lang="fr">cube</rdfs:label>
-        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/furnitures/cube.stl</cg_entities:hasMesh>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/cube.stl</cg_entities:hasMesh>
         <onto:label xml:lang="en">cube</onto:label>
     </owl:Class>
     
@@ -113,7 +113,7 @@
 
     <owl:Class rdf:about="cg_objects#KallaxTable">
         <rdfs:subClassOf rdf:resource="cg_objects#Table"/>
-        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/furnitures/ikea_kallax.stl</cg_entities:hasMesh>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/ikea_kallax.stl</cg_entities:hasMesh>
     </owl:Class>
     
 
@@ -124,7 +124,7 @@
         <rdfs:subClassOf rdf:resource="cg_objects#Table"/>
         <rdfs:label xml:lang="en">low table</rdfs:label>
         <rdfs:label xml:lang="fr">low table</rdfs:label>
-        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/furnitures/ikea_low_table_lack.stl</cg_entities:hasMesh>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/ikea_low_table_lack.stl</cg_entities:hasMesh>
     </owl:Class>
     
 
@@ -175,7 +175,7 @@
 
     <owl:Class rdf:about="cg_objects#RoundTable">
         <rdfs:subClassOf rdf:resource="cg_objects#Table"/>
-        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/furnitures/round_table.stl</cg_entities:hasMesh>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/round_table.stl</cg_entities:hasMesh>
     </owl:Class>
     
 
@@ -231,7 +231,7 @@
         <rdfs:subClassOf rdf:resource="cg_entities#FrFemaleGender"/>
         <rdfs:label xml:lang="en">table</rdfs:label>
         <rdfs:label xml:lang="fr">table</rdfs:label>
-        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/furnitures/ikea_table.dae</cg_entities:hasMesh>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/ikea_table.dae</cg_entities:hasMesh>
     </owl:Class>
     
 

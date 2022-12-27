@@ -211,7 +211,7 @@
     <!-- cg_agents#BodyPart -->
 
     <owl:Class rdf:about="cg_agents#BodyPart">
-        <rdfs:subClassOf rdf:resource="cg_entities#Entity"/>
+        <rdfs:subClassOf rdf:resource="cg_entities#PhysicalEntity"/>
         <owl:disjointWith rdf:resource="cg_agents#Agent"/>
     </owl:Class>
     

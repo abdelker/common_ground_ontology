@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/RIS-WITH/common_ground_ontology/CG_context#"
-     xml:base="https://github.com/RIS-WITH/common_ground_ontology/CG_context#"
-     xmlns:cg_context="https://github.com/RIS-WITH/common_ground_ontology/CG_context#"
-     xmlns:cg_entities="https://github.com/RIS-WITH/common_ground_ontology/CG_entities#"
-     xmlns:cg_agents="https://github.com/RIS-WITH/common_ground_ontology/CG_agents#"
-     xmlns:cg_objects="https://github.com/RIS-WITH/common_ground_ontology/CG_objects#"
-     xmlns:cg_area="https://github.com/RIS-WITH/common_ground_ontology/CG_area#"
-     xmlns:cg_geometric="https://github.com/RIS-WITH/common_ground_ontology/CG_geometric#"
+<rdf:RDF xmlns="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_context#"
+     xml:base="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_context#"
+     xmlns:cg_context="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_context#"
+     xmlns:cg_entities="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_entities#"
+     xmlns:cg_agents="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_agents#"
+     xmlns:cg_objects="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_objects#"
+     xmlns:cg_area="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_area#"
+     xmlns:cg_geometric="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_geometric#"
      xmlns:onto="ontologenius"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://github.com/RIS-WITH/common_ground_ontology/CG_context">
-      <owl:imports rdf:resource="https://github.com/RIS-WITH/common_ground_ontology/CG_agents"/>
-      <owl:imports rdf:resource="https://github.com/RIS-WITH/common_ground_ontology/CG_entities"/>
-      <owl:imports rdf:resource="https://github.com/RIS-WITH/common_ground_ontology/CG_objects"/>
-      <owl:imports rdf:resource="https://github.com/RIS-WITH/common_ground_ontology/CG_area"/>
-      <owl:imports rdf:resource="https://github.com/RIS-WITH/common_ground_ontology/CG_geometric"/>
+    <owl:Ontology rdf:about="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_context">
+      <owl:imports rdf:resource="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_agents"/>
+      <owl:imports rdf:resource="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_entities"/>
+      <owl:imports rdf:resource="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_objects"/>
+      <owl:imports rdf:resource="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_area"/>
+      <owl:imports rdf:resource="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_geometric"/>
     </owl:Ontology>
     
 

@@ -67,6 +67,15 @@
     
 
 
+    <!-- cg_agents#hasBase -->
+
+    <owl:ObjectProperty rdf:about="cg_agents#hasBase">
+        <rdfs:subPropertyOf rdf:resource="cg_agents#hasBodyPart"/>
+        <rdfs:range rdf:resource="cg_agents#Base"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- cg_agents#hasHand -->
 
     <owl:ObjectProperty rdf:about="cg_agents#hasHand">
@@ -213,6 +222,14 @@
     <owl:Class rdf:about="cg_agents#BodyPart">
         <rdfs:subClassOf rdf:resource="cg_entities#PhysicalEntity"/>
         <owl:disjointWith rdf:resource="cg_agents#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- cg_agents#Base -->
+
+    <owl:Class rdf:about="cg_agents#Base">
+        <rdfs:subClassOf rdf:resource="cg_agents#BodyPart"/>
     </owl:Class>
     
 

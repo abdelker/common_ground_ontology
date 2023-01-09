@@ -69,11 +69,79 @@
     
 
 
+    <!-- ris_agents#base_footprint -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#base_footprint">
+        <rdf:type rdf:resource="cg_agents#Base"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ris_agents#head_mount_kinect2_rgb_optical_frame -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#head_mount_kinect2_rgb_optical_frame">
+        <rdf:type rdf:resource="cg_agents#Head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ris_agents#left_gripper_frame -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#l_gripper_tool_frame">
+        <rdf:type rdf:resource="cg_agents#Hand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ris_agents#r_gripper_tool_frame -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#r_gripper_tool_frame">
+        <rdf:type rdf:resource="cg_agents#Hand"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- ris_agents#pr2 -->
 
     <owl:NamedIndividual rdf:about="ris_agents#pr2">
         <rdf:type rdf:resource="cg_agents#Robot"/>
+        <cg_agents:hasBase rdf:resource="ris_agents#base_footprint"/>
+        <cg_agents:hasHead rdf:resource="ris_agents#head_mount_kinect2_rgb_optical_frame"/>
+        <cg_agents:hasRightHand rdf:resource="ris_agents#r_gripper_tool_frame"/>
+        <cg_agents:hasLeftHand rdf:resource="ris_agents#l_gripper_tool_frame"/>
         <cg_agents:hasFieldOfView rdf:resource="ris_agents#kinect2_fov"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ris_agents#base_link -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#base_link">
+        <rdf:type rdf:resource="cg_agents#Base"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ris_agents#CameraTop_optical_frame -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#CameraTop_optical_frame">
+        <rdf:type rdf:resource="cg_agents#Head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ris_agents#l_gripper -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#l_gripper">
+        <rdf:type rdf:resource="cg_agents#Hand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ris_agents#r_gripper -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#r_gripper">
+        <rdf:type rdf:resource="cg_agents#Hand"/>
     </owl:NamedIndividual>
     
 
@@ -82,6 +150,10 @@
 
     <owl:NamedIndividual rdf:about="ris_agents#pepper">
         <rdf:type rdf:resource="cg_agents#Robot"/>
+        <cg_agents:hasBase rdf:resource="ris_agents#base_link"/>
+        <cg_agents:hasHead rdf:resource="ris_agents#CameraTop_optical_frame"/>
+        <cg_agents:hasRightHand rdf:resource="ris_agents#r_gripper"/>
+        <cg_agents:hasLeftHand rdf:resource="ris_agents#l_gripper"/>
         <cg_agents:hasFieldOfView rdf:resource="ris_agents#realsense_fov"/>
     </owl:NamedIndividual>
 

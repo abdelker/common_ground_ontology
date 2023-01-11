@@ -123,10 +123,10 @@
     
 
 
-    <!-- cg_agents#fovHasQuality -->
+    <!-- cg_agents#fovHasValue -->
 
-    <owl:DatatypeProperty rdf:about="cg_agents#fovHasQuality">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <owl:DatatypeProperty rdf:about="cg_agents#fovHasValue">
+        <rdfs:subPropertyOf rdf:resource="cg_entities#qualityHasValue"/>
     </owl:DatatypeProperty>
 
     
@@ -135,7 +135,7 @@
     <!-- cg_agents#fovHasHeight -->
 
     <owl:DatatypeProperty rdf:about="cg_agents#fovHasHeight">
-        <rdfs:subPropertyOf rdf:resource="cg_agents#fovHasQuality"/>
+        <rdfs:subPropertyOf rdf:resource="cg_agents#fovHasValue"/>
     </owl:DatatypeProperty>
 
     
@@ -144,7 +144,7 @@
     <!-- cg_agents#fovHasWidth -->
 
     <owl:DatatypeProperty rdf:about="cg_agents#fovHasWidth">
-        <rdfs:subPropertyOf rdf:resource="cg_agents#fovHasQuality"/>
+        <rdfs:subPropertyOf rdf:resource="cg_agents#fovHasValue"/>
     </owl:DatatypeProperty>
 
     
@@ -153,7 +153,7 @@
     <!-- cg_agents#fovHasClipNear -->
 
     <owl:DatatypeProperty rdf:about="cg_agents#fovHasClipNear">
-        <rdfs:subPropertyOf rdf:resource="cg_agents#fovHasQuality"/>
+        <rdfs:subPropertyOf rdf:resource="cg_agents#fovHasValue"/>
     </owl:DatatypeProperty>
 
     
@@ -162,7 +162,7 @@
     <!-- cg_agents#fovHasClipFar -->
 
     <owl:DatatypeProperty rdf:about="cg_agents#fovHasClipFar">
-        <rdfs:subPropertyOf rdf:resource="cg_agents#fovHasQuality"/>
+        <rdfs:subPropertyOf rdf:resource="cg_agents#fovHasValue"/>
     </owl:DatatypeProperty>
     
 
@@ -190,7 +190,9 @@
 
     <!-- cg_agents#FieldOfView -->
 
-    <owl:Class rdf:about="cg_agents#FieldOfView"/>
+    <owl:Class rdf:about="cg_agents#FieldOfView">
+        <rdfs:subClassOf rdf:resource="cg_entities#ConceptualEntity"/>
+    </owl:Class>
     
 
 

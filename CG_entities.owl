@@ -157,6 +157,16 @@
     
 
 
+    <!-- cg_entities#qualityHasValue -->
+
+    <owl:DatatypeProperty rdf:about="cg_entities#qualityHasValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="cg_entities#Quality"/>
+    </owl:DatatypeProperty>
+
+    
+
+
     <!-- cg_entities#displayableProperty -->
 
     <owl:DatatypeProperty rdf:about="cg_entities#displayableProperty">

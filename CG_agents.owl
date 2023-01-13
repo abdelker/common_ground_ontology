@@ -127,6 +127,7 @@
 
     <owl:DatatypeProperty rdf:about="cg_agents#fovHasValue">
         <rdfs:subPropertyOf rdf:resource="cg_entities#qualityHasValue"/>
+        <rdfs:domain rdf:resource="cg_agents#FieldOfView"/>
     </owl:DatatypeProperty>
 
     
@@ -191,7 +192,7 @@
     <!-- cg_agents#FieldOfView -->
 
     <owl:Class rdf:about="cg_agents#FieldOfView">
-        <rdfs:subClassOf rdf:resource="cg_entities#ConceptualEntity"/>
+        <rdfs:subClassOf rdf:resource="cg_entities#ConceptualQuality"/>
     </owl:Class>
     
 

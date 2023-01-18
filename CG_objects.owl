@@ -135,6 +135,8 @@
         <rdfs:subClassOf rdf:resource="cg_objects#Container"/>
         <rdfs:subClassOf rdf:resource="cg_objects#Pickable"/>
         <rdfs:subClassOf rdf:resource="cg_entities#FrFemaleGender"/>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/mug.obj</cg_entities:hasMesh>
+        <cg_entities:hasTexture rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/mug.png</cg_entities:hasTexture>
         <rdfs:label xml:lang="en">mug</rdfs:label>
         <rdfs:label xml:lang="fr">tasse</rdfs:label>
     </owl:Class>
@@ -152,10 +154,51 @@
     
 
 
+    <!-- cg_objects#PaperBin -->
+
+    <owl:Class rdf:about="cg_objects#PaperBin">
+        <rdfs:subClassOf rdf:resource="cg_objects#Container"/>
+        <rdfs:subClassOf rdf:resource="cg_objects#Pickable"/>
+        <rdfs:subClassOf rdf:resource="cg_entities#FrFemaleGender"/>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/paper_bin.obj</cg_entities:hasMesh>
+        <cg_entities:hasTexture rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/paper_bin.png</cg_entities:hasTexture>
+        <rdfs:label xml:lang="en">paper bin</rdfs:label>
+        <rdfs:label xml:lang="fr">poubelle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- cg_objects#Pen -->
+
+    <owl:Class rdf:about="cg_objects#Pen">
+        <rdfs:subClassOf rdf:resource="cg_objects#Pickable"/>
+        <rdfs:subClassOf rdf:resource="cg_entities#FrMaleGender"/>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/pen.obj</cg_entities:hasMesh>
+        <cg_entities:hasTexture rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/pen.png</cg_entities:hasTexture>
+        <rdfs:label xml:lang="en">pen</rdfs:label>
+        <rdfs:label xml:lang="fr">stylo</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- cg_objects#Pickable -->
 
     <owl:Class rdf:about="cg_objects#Pickable">
         <rdfs:subClassOf rdf:resource="cg_objects#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- cg_objects#Pint -->
+
+    <owl:Class rdf:about="cg_objects#Pint">
+        <rdfs:subClassOf rdf:resource="cg_objects#Container"/>
+        <rdfs:subClassOf rdf:resource="cg_objects#Pickable"/>
+        <rdfs:subClassOf rdf:resource="cg_entities#FrFemaleGender"/>
+        <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/pint.obj</cg_entities:hasMesh>
+        <cg_entities:hasTexture rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://common_ground_ontology/meshes/furnitures/pint.png</cg_entities:hasTexture>
+        <rdfs:label xml:lang="en">pint</rdfs:label>
+        <rdfs:label xml:lang="fr">pinte</rdfs:label>
     </owl:Class>
     
 

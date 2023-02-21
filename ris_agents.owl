@@ -57,6 +57,18 @@
     
 
 
+    <!-- ris_agents#xtion_fov -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#xtion_fov">
+        <rdf:type rdf:resource="cg_agents#FieldOfView"/>
+        <cg_agents:fovHasClipNear rdf:datatype="http://www.w3.org/2002/07/owl#real">0.1</cg_agents:fovHasClipNear>
+        <cg_agents:fovHasClipFar rdf:datatype="http://www.w3.org/2002/07/owl#real">6</cg_agents:fovHasClipFar>
+        <cg_agents:fovHasHeight rdf:datatype="http://www.w3.org/2002/07/owl#real">45</cg_agents:fovHasHeight>
+        <cg_agents:fovHasWidth rdf:datatype="http://www.w3.org/2002/07/owl#real">58</cg_agents:fovHasWidth>
+    </owl:NamedIndividual>
+    
+
+
     <!-- ris_agents#human_fov -->
 
     <owl:NamedIndividual rdf:about="ris_agents#human_fov">
@@ -155,6 +167,34 @@
         <cg_agents:hasRightHand rdf:resource="ris_agents#r_gripper"/>
         <cg_agents:hasLeftHand rdf:resource="ris_agents#l_gripper"/>
         <cg_agents:hasFieldOfView rdf:resource="ris_agents#realsense_fov"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ris_agents#xtion_rgb_optical_frame -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#xtion_rgb_optical_frame">
+        <rdf:type rdf:resource="cg_agents#Head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ris_agents#gripper_link -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#gripper_link">
+        <rdf:type rdf:resource="cg_agents#Hand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ris_agents#tiago -->
+
+    <owl:NamedIndividual rdf:about="ris_agents#tiago">
+        <rdf:type rdf:resource="cg_agents#Robot"/>
+        <cg_agents:hasBase rdf:resource="ris_agents#base_footprint"/>
+        <cg_agents:hasHead rdf:resource="ris_agents#xtion_rgb_optical_frame"/>
+        <cg_agents:hasRightHand rdf:resource="ris_agents#gripper_link"/>
+        <cg_agents:hasFieldOfView rdf:resource="ris_agents#xtion_fov"/>
     </owl:NamedIndividual>
 
 </rdf:RDF>

@@ -43,9 +43,30 @@
         <rdfs:domain rdf:resource="cg_agents#FieldOfView"/>
         <rdfs:range rdf:resource="cg_agents#Agent"/>
     </owl:ObjectProperty>
+     
+
+
+    <!-- cg_agents#hasRole TODO: define as SocialQuality -->
+
+    <owl:ObjectProperty rdf:about="cg_agents#hasRole">
+        <rdfs:subPropertyOf rdf:resource="cg_entities#hasConceptualQuality"/>
+        <rdfs:domain rdf:resource="cg_agents#Agent"/>
+        <rdfs:range rdf:resource="cg_agents#Role"/>
+    </owl:ObjectProperty>   
     
 
 
+    <!-- cg_agents#isRoleOf TODO: define as SocialQuality -->
+
+    <owl:ObjectProperty rdf:about="cg_agents#isRoleOf">
+        <rdfs:subPropertyOf rdf:resource="cg_entities#hasConceptualQuality"/>
+        <owl:inverseOf rdf:resource="cg_agents#hasRole"/>
+        <rdfs:domain rdf:resource="cg_agents#Role"/>
+        <rdfs:range rdf:resource="cg_agents#Agent"/>
+    </owl:ObjectProperty>
+
+
+    
     <!-- cg_agents#hasBodyPart -->
 
     <owl:ObjectProperty rdf:about="cg_agents#hasBodyPart">
@@ -216,6 +237,12 @@
         <rdfs:subClassOf rdf:resource="cg_entities#FrMaleGender"/>
         <rdfs:label xml:lang="en">robot</rdfs:label>
         <rdfs:label xml:lang="fr">robot</rdfs:label>
+    </owl:Class>
+
+    <!-- cg_agents#Role [defined for now as a ConceptualQuality]-->
+
+    <owl:Class rdf:about="cg_agents#Role">
+        <rdfs:subClassOf rdf:resource="cg_entities#ConceptualQuality"/>
     </owl:Class>
     
 
